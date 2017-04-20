@@ -17,5 +17,5 @@ $(document).ready(function(){
 		setTimeout( function(){ $(sushi).removeClass(animation); }, 2100);
 
 	} );
-
+//typing
 });
