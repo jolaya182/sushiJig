@@ -50,6 +50,41 @@
 }
 
 
+.grow{
+  z-index: 30;
+  -webkit-animation: grow 2s;
+  animation:grow 2s;
+}
+@-webkit-keyframes grow{
+0%{ -webkit-transform: scale(1);}
+75%{-webkit-transform: scale(2.5);}
+90%{-webkit-transform:scale(0.6);}
+93%{-webkit-transform: scale(1.4);}
+95%{-webkit-transform: scale(0.8);}
+97%{-webkit-transform: scale(1.2);}
+100%{-webkit-transform: scale(1);}
+
+}
+
+.hop{
+-webkit-animation: hop 2s ;
+animation: hop 2s;
+
+}
+
+@-webkit-keyframes hop {
+  0%{-webkit-transform: translateX(0);}
+  12%{-webkit-transform: translateY(-100px) rotate(-20deg);}
+  25%{-webkit-transform: translateX(-20px);}
+  37%{-webkit-transform: translateY(-100px) rotate(20deg);}
+  50%{-webkit-transform: translateX(20px);}
+  62%{-webkit-transform: translateY(-100px) rotate(-20deg);}
+  75%{-webkit-transform: translateX(-20px);}
+  87%{-webkit-transform: translateY(-100px) rotate(20deg);}
+  100%{-webkit-transform: translateX(0px);}
+
+
+}
 
 .shake {
   -webkit-animation: shake 1s 2;

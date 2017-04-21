@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var animations=['shake', 'shake2'];
+	var animations=['shake', 'shake2', 'grow', 'hop'];
 
 	function getRandomNumber(min, max){
 
@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	$(".box").on("click", function(){ 
 		var sushi=this;
-		var animation=animations[getRandomNumber(0,1)];
+		var animation=animations[getRandomNumber(0,3)];
 
 		$(sushi).addClass(animation);
 		console.log("sushi: ", sushi, " animation ", animation );
