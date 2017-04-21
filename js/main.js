@@ -7,7 +7,7 @@ $(document).ready(function(){
 		return Math.floor(Math.random()*(max-min+1)+ min );
 	}//end of function
 
-	$("#sushi2").on("click", function(){ 
+	$(".box").on("click", function(){ 
 		var sushi=this;
 		var animation=animations[getRandomNumber(0,1)];
 
