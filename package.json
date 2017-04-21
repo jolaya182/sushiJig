@@ -1,0 +1,14 @@
+{
+  "name": "javier",
+  "version": "first",
+  "description": "moving sushi",
+  "main": "index.js",
+  "repository": "https://github.com/jolaya182/sushiJig.git",
+  "author": "jolaya182 <jolaya182@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^1.3.0",
+    "global": "^4.3.2",
+    "moment": "^2.18.1"
+  }
+}

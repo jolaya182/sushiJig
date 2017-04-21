@@ -1,14 +1,55 @@
-#sushi1 {
-  background-color: white;
+
+.wrap{
+  width:900px;
+  margin:0px auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.sushiContainer{
+
   position: relative;
+  width:900px;
+  height:600px;
+}
+
+.box{
+  position:absolute;
+}
+
+#sushi1 {
+  top:0px;
+  left:0px;
   cursor: pointer;
+
 }
 
 #sushi2 {
-  background-color: white;
-  position: relative;
+  top:0px;
+  left:300px;
+
   cursor: pointer;
 }
+
+#sushi3 {
+  top:0px;
+  left:550px;
+  cursor: pointer;
+}
+
+#sushi4 {
+  top:250px;
+  left:0px;
+  cursor: pointer;
+}
+#sushi5 {
+  top:250px;
+  left:300px;
+  cursor: pointer;
+}
+
+
 
 .shake {
   -webkit-animation: shake 1s 2;
