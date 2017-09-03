@@ -1,3 +1,6 @@
+theme: jekyll-theme-cayman
+title: welcome to My sushi repo
+description: feel free to book mark this to your bookmarks
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jolaya182/sushiJig/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
