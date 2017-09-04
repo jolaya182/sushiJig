@@ -1,3 +1,6 @@
+
+[demo](www.guitarflavors.com/sushiJig)
+
 theme: jekyll-theme-cayman
 title: welcome to My sushi repo
 description: feel free to book mark this to your bookmarks
